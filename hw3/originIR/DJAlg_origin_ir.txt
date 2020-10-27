@@ -1,0 +1,16 @@
+QINIT 2
+CREG 1
+X q[1]
+H q[0]
+H q[1]
+H q[0]
+MEASURE q[0],c[0]Constant function!
+QINIT 2
+CREG 1
+X q[1]
+H q[0]
+H q[1]
+CNOT q[0],q[1]
+X q[1]
+H q[0]
+MEASURE q[0],c[0]Balanced function!
